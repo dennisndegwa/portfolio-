@@ -337,7 +337,7 @@ background-color: rgba(0, 17, 87, 0.1);
 .contact-left{
     background-color: black;
     width: 50%;
-    padding: 10px 16px;
+    padding: 10px;
     height: 420px;
     border-bottom: 1px solid black;
 }
@@ -351,6 +351,7 @@ background-color: rgba(0, 17, 87, 0.1);
     padding: 10px 16px;
     width: 90px;
 }
+
 .contact-right i{
     padding: 10px;
 }
@@ -375,3 +376,4 @@ background-color: rgba(0, 17, 87, 0.1);
     padding: 10px;
     color: black;
 }
+
