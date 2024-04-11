@@ -8,7 +8,7 @@ header {
     background-color: white;
     color: white;
     padding: 20px;
-    text-align: center;
+   
     position: sticky;
     top: 0;
 }
@@ -16,10 +16,14 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+     text-align: center;
 }
 nav ul li {
     display: inline-block;
     margin-right: 4px;
+}
+Nav ul li h3{
+    text-decoration-color: black;
 }
 nav ul li a {
     color: black;
@@ -69,8 +73,6 @@ table, th{
 section {
     margin-bottom: 2rem;
 }
-
-
 .project {
     margin-bottom: 4px;
 }
@@ -98,9 +100,6 @@ button:hover{
     background-color: black;
     color: white;
 }
-
-
-
 /*services*/
 #services{
     background-color: rgb(58, 56, 80);
@@ -166,7 +165,6 @@ button:hover{
    padding: 10px;
     border: 1px solid black;
 }
-
 /*SKILLS*/
 #skills{
     background-color: rgba(255, 215, 197,0.5);
@@ -205,8 +203,7 @@ button:hover{
     background-color: rgba(118, 198, 255, 1);
     border: 1px solid black;
     height: 100px;
-    width:250px ;
-   
+    width:250px ;  
 }
 .skill2 i{
    background-color: white;
@@ -214,7 +211,6 @@ button:hover{
     border: 1px solid black;
     padding: 10px
 }
-
 .skill{
     text-align: center;
     gap: 30px;
@@ -224,7 +220,6 @@ button:hover{
     height:500px;
     padding: 0;
 }
-
 .pagetwo{
     display: flex;
     padding: 16px 20px;
@@ -246,7 +241,6 @@ button:hover{
     background-color:darkorange;
     color: white;
 }
-
 /*gallery*/
 .gallery{
     background-color: rgba(255, 215, 197,0.2);
@@ -262,6 +256,7 @@ button:hover{
     height: 350px;
     width:550px ;
     border: 1px solid white;
+    object-fit: fill;
 }
 
 .gallery2{
@@ -274,6 +269,7 @@ button:hover{
 .gallery2 img{
     height: 350px;
     width:550px ;
+    object-fit: fill;
 }
 .gallery3{
     display:flex;
@@ -284,6 +280,7 @@ button:hover{
 .gallery3 img{
     height: 350px;
     width:550px ;
+    object-fit: fill;
 }
 .gallery4{
     display:flex;
@@ -296,6 +293,7 @@ button:hover{
 .gallery4 img{
     height: 350px;
     width:550px ;
+    object-fit: fill;
 }
 .gallery5{
     display:flex;
@@ -306,8 +304,8 @@ button:hover{
 .gallery5 img{
     height: 350px;
     width:550px ;
+        object-fit: fill;
 }
-
 /*testimonial*/
 .testimony{
  display:flex;
@@ -324,7 +322,6 @@ background-color: rgba(0, 17, 87, 0.1);
 .testimonial h1{
     text-align: center;
 }
-
 /*contact*/
 #contact{
     display: flex;
