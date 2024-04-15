@@ -1,7 +1,9 @@
+@media screen and (min-width:600px){
 body {
    font-family: Arial;
    text-decoration-color:white ;
    background-size: cover;
+  
 }
 /*header*/
 header {
@@ -33,6 +35,9 @@ nav ul li a {
 nav a:hover{
     color: red;
     background-color: black;
+}
+.dropdown{
+    display: none;
 }
 /*Home*/
 #home{
@@ -219,7 +224,7 @@ button:hover{
     width:400px ;
     height:500px;
     padding: 0;
-}
+}`
 .pagetwo{
     display: flex;
     padding: 16px 20px;
@@ -374,4 +379,4 @@ background-color: rgba(0, 17, 87, 0.1);
     color: black;
 }
 
-
+}
