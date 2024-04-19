@@ -108,6 +108,7 @@ button:hover{
 /*services*/
 #services{
     background-color: rgb(58, 56, 80);
+    text-align: center;
 }
 #services h1{
     text-align: center;
@@ -169,6 +170,9 @@ button:hover{
     background-color: white;
    padding: 10px;
     border: 1px solid black;
+}
+.web5{
+    display: none;
 }
 /*SKILLS*/
 #skills{
